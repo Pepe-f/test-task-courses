@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our online courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body class="page-body">
+    <img
+      class="page-body__icon page-body__shapes"
+      src="./assets/shapes-1.svg"
+      alt="Shapes icon"
+    />
+    <img
+      class="page-body__icon page-body__arrows"
+      src="./assets/shapes-2.svg"
+      alt="Shapes icon"
+    />
+    <img
+      class="page-body__icon page-body__dots"
+      src="./assets/dots.svg"
+      alt="Shapes icon"
+    />
+
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <h6 class="header__subtitle">Enjoy your studying!</h6>
+          <h1 class="header__title">Our online courses</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="filters">
+      <div class="container">
+        <div class="filters__wrapper">
+          <nav class="filters__nav" id="filters">
+            <button class="filters__btn filters__btn--active">
+              All <span>17</span>
+            </button>
+            <button class="filters__btn">Marketing <span>4</span></button>
+            <button class="filters__btn">Management <span>3</span></button>
+            <button class="filters__btn">HR & Recruiting <span>5</span></button>
+            <button class="filters__btn">Design <span>2</span></button>
+            <button class="filters__btn">Development <span>3</span></button>
+          </nav>
+          <div class="filters__search">
+            <input
+              id="search"
+              name="search"
+              type="text"
+              class="filters__input"
+              placeholder="Search course..."
+            />
+            <img src="./assets/search.svg" alt="Search icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="courses">
+      <div class="container">
+        <div class="courses__grid" id="courses">
+          <article class="course-card">
+            <img
+              class="course-card__img"
+              src="./assets/course-1.png"
+              alt="Course image"
+            />
+            <div class="course-card__body">
+              <span class="course-card__tag course-card__tag--green"
+                >Marketing</span
+              >
+              <h3 class="course-card__title">
+                The Ultimate Google Ads Training Course
+              </h3>
+              <div class="course-card__content">
+                <p class="course-card__price">$100</p>
+                <div class="course-card__divider"></div>
+                <p class="course-card__author">by Jerome Bell</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <img
+              class="course-card__img"
+              src="./assets/course-2.png"
+              alt="Course image"
+            />
+            <div class="course-card__body">
+              <span class="course-card__tag course-card__tag--blue"
+                >Management</span
+              >
+              <h3 class="course-card__title">
+                Product Management Fundamentals
+              </h3>
+              <div class="course-card__content">
+                <p class="course-card__price">$480</p>
+                <div class="course-card__divider"></div>
+                <p class="course-card__author">by Marvin McKinney</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <img
+              class="course-card__img"
+              src="./assets/course-3.png"
+              alt="Course image"
+            />
+            <div class="course-card__body">
+              <span class="course-card__tag course-card__tag--orange"
+                >HR & Recruiting</span
+              >
+              <h3 class="course-card__title">HR Management and Analytics</h3>
+              <div class="course-card__content">
+                <p class="course-card__price">$200</p>
+                <div class="course-card__divider"></div>
+                <p class="course-card__author">by Leslie Alexander Li</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="load-more">
+        <div class="load-more__wrapper">
+          <button class="load-more__button">
+            <img src="./assets/load.svg" alt="Load more icon" />
+            <span>Load more</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./scripts/index.js" defer></script>
+  </body>
+</html>

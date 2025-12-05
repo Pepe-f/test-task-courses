@@ -1,0 +1,17 @@
+:root {
+  --font-family-main: "Lato", sans-serif;
+  --gray-900-color: #1e212c;
+  --gray-800-color: #424551;
+  --gray-700-color: #787a80;
+  --gray-600-color: #9a9ca5;
+  --gray-400-color: #ddd;
+  --gray-300-color: #e5e8ed;
+  --primary-color: #ff3f3a;
+  --white-color: #fff;
+  --success-color: #03cea4;
+  --info-color: #5a87fc;
+  --warning-color: #f89828;
+  --blue-color: #7772f1;
+  --pink-color: #f52f6e;
+  --danger-color: #ff4242;
+}/*# sourceMappingURL=variables.css.map */
